@@ -30,5 +30,5 @@ data = {
     ]
 }
 
-with open("data/followers.json", "w") as f:
+with open("docs/followers.json", "w") as f:
     json.dump(data, f)
