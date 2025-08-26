@@ -11,7 +11,7 @@ def get_followers():
 
     driver = webdriver.Chrome(options=options)
     try:
-        driver.get("https://www.tiktok.com/@your_username")
+        driver.get("https://www.tiktok.com/@theduckstore1920")
         element = driver.find_element(By.CSS_SELECTOR, 'strong[data-e2e="followers-count"]')
         return element.text
     except Exception as e:
